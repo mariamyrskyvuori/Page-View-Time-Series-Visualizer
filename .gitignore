@@ -1,29 +1,22 @@
-__pycache__/
-# Environments
-env/
+# Python-virtuaaliympäristöt
 venv/
+env/
 .myenv/
+myenv/
+
+# Python-väliaikaiset tiedostot
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.pdb
-.Python
-
-# VSCode settings
-.vscode/
-
-# Python-specific ignores
 *.py[cod]
-*.egg
-*.egg-info/
-*.pyo
-*.pyd
-*.pdb
-*.pyc
 
-# MacOS-specific ignores
-.DS_Store
+# Jupyter Notebook -tiedostot
+.ipynb_checkpoints/
 
-# Ignore Jupyter Notebook checkpoints
-.ipynb_checkpoints
+# Muut väliaikaiset tiedostot
+*.log
+*.tmp
+*.bak
+
+# Matplotlib tallennetut kuvat
+*.png
+*.jpg
+*.jpeg
